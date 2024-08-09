@@ -8,6 +8,7 @@
 </head>
 <header>
     <h1 class="titulo">Café Brasil</h1>
+    <img id="cafe" src="cafe.png">
  </header>
 <body>
  
@@ -22,8 +23,20 @@
 </html>
 
 style
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --branco: #f3e9dcff;
+    --caramelo: #c08552ff;
+    --marrom: #5e3023ff;
+    --chocolate: #895737ff;
+    --bege: #dab49d;
+}
+
 header{
-    background-color: rgb(156, 66, 2);
+    background-color: bisque;
 }
 
 #imagem{ 
@@ -31,10 +44,11 @@ header{
     display: inline-block;
 }
 body{
-    background-image: url(cafe.png);
+    background-color: chocolate;
 }
 .titulo {
     text-align: center;
+    text-decoration: underline;
     
 }
 .subtitulo {

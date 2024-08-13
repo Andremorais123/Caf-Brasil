@@ -6,23 +6,26 @@
     <link rel="stylesheet" href="style.css">
     <title><strong>Café Brasil</strong></title>
 </head>
-<header>
-    <h1 class="titulo">Café Brasil</h1>
-    <img id="cafe" src="cafe.png">
- </header>
 <body>
- 
-  <img id="imagem" src="https://raw.githubusercontent.com/Andremorais123/Caf-Brasil/70b2ff6c3a59c773c22f99beb7e2ccc88900c2bb/img/produto%202.jpg">
-  <div class="subtitulo">
-  <h2>SOBRE:</h2>
-<p><strong>A cafeteria Café Brasil, teve o surgimento em 07 de agosto de 2024, com a decisão de fazer salgados e cafés maravilhosos para a clientela.</strong></p>
-  </div>
+<header class="cabeçalho">
+    <h1 class="titulo-pricipal">Café Brasil</h1>
+    <p><strong>A cafeteria Café Brasil, teve o surgimento em 07 de agosto de 2024, com a decisão de fazer salgados e cafés maravilhosos para a clientela.</strong></p>
+   
+    
+ </header>
+ <mai>
+
+ </mai>
+ <foot>
   
+ </foot>
 
  </body>
 </html>
 
 style
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -33,24 +36,16 @@ style
     --marrom: #5e3023ff;
     --chocolate: #895737ff;
     --bege: #dab49d;
-}
-
-header{
-    background-color: bisque;
-}
-
-#imagem{ 
-    width: 35%;
-    display: inline-block;
+    --fonte-titulo:"Matemasie", sans-serif;
+    --fonte-texto:"Playfair Display", serif;
 }
 body{
-    background-color: chocolate;
+    background-color: var(--caramelo);
+    font-family: var(--fonte-texto);
+    font-size: 20px;ac
 }
-.titulo {
-    text-align: center;
-    text-decoration: underline;
-    
+.titulo-primcipal{
+    font-family: var(--fonte-titulo)
 }
-.subtitulo {
-    display: inline-block;
-}
+
+

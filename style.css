@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --branco: #f3e9dcff;
+    --caramelo: #c08552ff;
+    --marrom: #5e3023ff;
+    --chocolate: #895737ff;
+    --bege: #dab49d;
+    --fonte-titulo:"Matemasie", sans-serif;
+    --fonte-texto:"Playfair Display", serif;
+}
+body{
+    background-color: var(--caramelo);
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+}
+.cabecalho{
+    background-color: var(--bege);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+.cabecalho-img{
+    width: 23px;
+    border-radius: 100%;
+}

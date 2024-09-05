@@ -36,11 +36,11 @@ body{
     font-size:  32px; 
     color: black;
     margin-right: 36px;
+    transition: 0.5s;
 }
 .cabecalho-nav__link:hover{
     color: var(--marrom);
     font-size: 40px;
-    transition: 0.5s;
     text-shadow: 2px 2px 10px var(black);
 }
 
@@ -88,7 +88,7 @@ body{
     text-decoration: none;
 }
 .botao_secundario{
-    background-color: var(--marrom);
+    background-color: var(--branco);
 }
 .propaganda{
     display: grid;
@@ -100,7 +100,7 @@ body{
     padding-top: 2em;
 }
 .propaganda_img{
-    width: 50%;
+    width: 75%;
     border-radius: 15px;
 }
 .propaganda_titulo{
@@ -112,9 +112,9 @@ body{
     text-shadow: 4px 4px 20px var(--bege);
     transition: 0,7s;
 }
-.propaganda__texto{
+.propaganda_texto{
     font-size: 30px;
-    color: var(--chocolate);
+    color: black;
     margin-top: 1em;
 }
 .propaganda_img2{
@@ -126,4 +126,10 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.principal-capa__botao2{
+    background-color: var(--bege)
+    
+}
+
 
